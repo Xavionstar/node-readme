@@ -31,8 +31,24 @@ inquirer
     type: 'input',
     name: 'test',
     message: 'What are your test instructions?',
-    default: false,
   },
+  {
+    type: 'list',
+    name: 'licenses',
+    message: 'Is this for delivery?',
+    choices: ['MIT', 'Apache', 'GNU', "ISC"],
+  },
+  {
+    type: 'input',
+    name: 'githubQuestion',
+    message: 'What is your Github username?',
+  },
+  {
+    type: 'input',
+    name: 'emailQuestion',
+    message: 'What is your email?',
+  },
+  
     /* Pass your questions in here */
   ])
   .then((answers) => {
