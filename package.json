@@ -1,0 +1,22 @@
+{
+  "name": "node-readme",
+  "version": "1.0.0",
+  "description": "an in line app that generates a readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xavionstar/node-readme.git"
+  },
+  "author": "Lincoln Pough",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xavionstar/node-readme/issues"
+  },
+  "homepage": "https://github.com/Xavionstar/node-readme#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
